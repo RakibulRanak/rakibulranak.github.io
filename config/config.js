@@ -100,7 +100,7 @@ export const contact = {
 // SEARCH ENGINE
 export const SEO = {
   // 50 - 60 char
-  title: "Md Rakibul Hasan | Software Engineer | SUST | CEFALO",
+  title: "Md Rakibul Hasan | Software Engineer",
   description:
     "I am a software engineer with a degree in Software Engineering from SUST (2022). During my university years, I solved over 1200 problems in 200+ programming contests and worked on game and web development projects.",
   image: profile.src,
