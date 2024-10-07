@@ -75,8 +75,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         env:
-          NEXT_PUBLIC_GOOGLE_ANALYTICS: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS }}
-          NEXT_PUBLIC_MY_ENV_VAR: ${{ secrets.NEXT_PUBLIC_MY_ENV_VAR }}
+          NEXT_PUBLIC_GOOGLE_ANALYTICS: ${{ vars.NEXT_PUBLIC_GOOGLE_ANALYTICS }}
+          NEXT_PUBLIC_MY_ENV_VAR: ${{ vars.NEXT_PUBLIC_MY_ENV_VAR }}
         run: |
           export NODE_ENV=production
           npm run build && npm run export
