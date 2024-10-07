@@ -80,8 +80,6 @@ jobs:
       - name: Build with Next.js
         run: |
           export NODE_ENV=production
-          echo "My 1 is $NEXT_PUBLIC_GOOGLE_ANALYTICS"
-          echo "My 2 is $NEXT_PUBLIC_MY_ENV_VAR"
           npm run build && npm run export
 
       - name: Upload artifact
