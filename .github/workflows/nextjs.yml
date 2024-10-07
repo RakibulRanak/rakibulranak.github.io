@@ -28,6 +28,10 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    environment: production
+    env:
+      NEXT_PUBLIC_GOOGLE_ANALYTICS: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS }}
+      NEXT_PUBLIC_MY_ENV_VAR: ${{ secrets.NEXT_PUBLIC_MY_ENV_VAR }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -76,12 +80,9 @@ jobs:
       - name: Build with Next.js
         run: |
           export NODE_ENV=production
-          echo $NEXT_PUBLIC_GOOGLE_ANALYTICS
-          echo $NEXT_PUBLIC_MY_ENV_VAR
+          echo "My 1 is $NEXT_PUBLIC_GOOGLE_ANALYTICS"
+          echo "My 2 is $NEXT_PUBLIC_MY_ENV_VAR"
           npm run build && npm run export
-        env:
-          NEXT_PUBLIC_GOOGLE_ANALYTICS: ${{ vars.NEXT_PUBLIC_GOOGLE_ANALYTICS }}
-          NEXT_PUBLIC_MY_ENV_VAR: ${{ vars.NEXT_PUBLIC_MY_ENV_VAR }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
