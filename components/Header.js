@@ -2,6 +2,7 @@ import Head from "next/head";
 import Script from "next/script";
 
 export const Header = ({ seo }) => {
+  console.log(">>", process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS);
   return (
     <>
       <Head>
