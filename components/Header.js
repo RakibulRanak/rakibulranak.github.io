@@ -3,6 +3,8 @@ import Script from "next/script";
 
 export const Header = ({ seo }) => {
   console.log(">>", process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS);
+  if (process.env.MY_ENV_VAR === "hudai") console.log("HUDAI");
+  else console.log("NOT HUDAI");
   return (
     <>
       <Head>
