@@ -31,7 +31,7 @@ export const Card = ({ title, description, github, timePeriod }) => {
               textDecoration: "none",
               display: "flex",
               alignItems: "center",
-              fontSize: "0.8rem",
+              fontSize: "1rem",
             }}
           >
             <FaGithub style={{ fontSize: "1.4em", marginRight: "5px" }} />

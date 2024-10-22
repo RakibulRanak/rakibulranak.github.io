@@ -37,7 +37,7 @@ export const Education = ({ title, schools }) => {
                         style={{
                           flexGrow: 1,
                           width: "2px",
-                          backgroundColor: "#e0e0e0",
+                          // backgroundColor: "#e0e0e0",
                         }}
                       ></div>
                     )}

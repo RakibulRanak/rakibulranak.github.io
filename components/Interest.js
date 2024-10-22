@@ -5,7 +5,7 @@ export const Interest = ({ title, interests }) => {
     <div id="interest" className="bg-white">
       <h1
         className="text-primary fw-bold py-2 text-center text-md-start"
-        style={{ fontSize: "28px" }}
+        style={{ fontSize: "1.7rem" }}
       >
         {title}
       </h1>

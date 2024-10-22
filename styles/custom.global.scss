@@ -124,17 +124,29 @@ body {
 
 a {
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
 .icon-style {
   font-family: $font-family-sans-serif;
   color: $primary;
 }
+.btn{
+  font-size: 1.1rem;
+}
 
 
 .card-work {
   transition: box-shadow .3s;
 }
+p {
+ font-size: 1.1rem;
+}
+
+li {
+  font-size: 1.1rem;
+}
+
 
 .card-work:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, .2);
@@ -183,6 +195,10 @@ a {
   justify-content: center;
   margin-right: 20px;
   position: relative;
+}
+
+.timeline-icon svg {
+  color: #3f677b !important;
 }
 
 .timeline-content {
@@ -257,6 +273,7 @@ ul {
 .navbar {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow effect */
   z-index: 1000; /* Ensures the navbar stays above other elements */
+  font-size: 1.1rem;
 }
 
 html {
@@ -273,6 +290,7 @@ html {
 
 .skill-item {
   padding: 0.1rem;
+  // font-size: 1.2rem;
   display: flex;
   align-items: center;
 }
@@ -329,6 +347,9 @@ html {
   color: white !important;
 }
 
+.navbar-title-custom {
+  font-size: 1.4rem;
+}
 
 @media (max-width: 576px) {
   .navbar-title-custom {

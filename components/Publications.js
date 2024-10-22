@@ -27,7 +27,7 @@ export const Publications = ({ title, publications }) => {
                       display: "flex",
                       flexWrap: "wrap",
                       gap: "15px",
-                      fontSize: "0.9em",
+                      // fontSize: "0.9em",
                       marginTop: "10px",
                     }}
                   >
@@ -38,9 +38,7 @@ export const Publications = ({ title, publications }) => {
                         rel="noopener noreferrer"
                         className="d-flex align-items-center"
                       >
-                        <FaFilePdf
-                          style={{ fontSize: "1.2em", marginRight: "5px" }}
-                        />
+                        <FaFilePdf style={{ marginRight: "5px" }} />
                         <span>PDF</span>
                       </a>
                     )}
@@ -51,9 +49,7 @@ export const Publications = ({ title, publications }) => {
                         rel="noopener noreferrer"
                         className="d-flex align-items-center"
                       >
-                        <FaCode
-                          style={{ fontSize: "1.2em", marginRight: "5px" }}
-                        />
+                        <FaCode style={{ marginRight: "5px" }} />
                         <span>DOI</span>
                       </a>
                     )}
@@ -64,9 +60,7 @@ export const Publications = ({ title, publications }) => {
                         rel="noopener noreferrer"
                         className="d-flex align-items-center"
                       >
-                        <FaDatabase
-                          style={{ fontSize: "1.2em", marginRight: "5px" }}
-                        />
+                        <FaDatabase style={{ marginRight: "5px" }} />
                         <span>Dataset</span>
                       </a>
                     )}
@@ -77,9 +71,7 @@ export const Publications = ({ title, publications }) => {
                         rel="noopener noreferrer"
                         className="d-flex align-items-center"
                       >
-                        <FaGlobe
-                          style={{ fontSize: "1.2em", marginRight: "5px" }}
-                        />
+                        <FaGlobe style={{ marginRight: "5px" }} />
                         <span>Webpage</span>
                       </a>
                     )}

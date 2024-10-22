@@ -8,19 +8,14 @@ export const Biography = ({ title, content }) => {
     <div>
       <div className="mt-5 mt-md-0 pe-md-5">
         <div className="biography-section">
-          <h1
-            className="text-primary fw-bold text-md-start text-center mb-4"
-            style={{ fontSize: "28px" }}
-          >
+          <h1 className="text-primary fw-bold text-md-start text-center mb-4">
             {title}
           </h1>
           {content.map((paragraph, index) => (
             <p
               key={index}
               style={{
-                // fontSize: "16px",
                 lineHeight: "1.5",
-                // textAlign: "justify",
               }}
             >
               {paragraph}
