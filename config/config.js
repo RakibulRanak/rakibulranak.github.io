@@ -59,6 +59,10 @@ export const intro = {
       url: "mailto:rakibulhasanranak1@gmail.com",
       icon: "email",
     },
+    {
+      url: "https://www.stopstalk.com/user/profile/RakibulRanak",
+      icon: "code",
+    },
   ],
 };
 
@@ -110,11 +114,11 @@ export const interest = {
   title: "Interests",
   interests: [
     "Software Engineering",
-    "Artificial Intelligence",
+    // "Artificial Intelligence",
     "Machine Learning",
-    "Natural Language and Processing",
-    "Data Sciences and Analytics",
     "Human Computer Interaction",
+    "Natural Language and Processing",
+    // "Data Sciences and Analytics",
   ],
 };
 

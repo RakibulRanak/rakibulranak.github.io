@@ -1,7 +1,7 @@
 import React from "react";
 import getConfig from "next/config";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import icons from react-icons
+import { FaGithub, FaLinkedin, FaEnvelope, FaCode } from "react-icons/fa"; // Import icons from react-icons
 import { FaGoogleScholar } from "react-icons/fa6";
 
 const { publicRuntimeConfig } = getConfig();
@@ -52,6 +52,10 @@ export const Intro = ({ title, description, image, buttons, socialLinks }) => {
                   {/* email */}
                   {link.icon === "email" && (
                     <FaEnvelope className="responsive-icon" />
+                  )}
+                  {/* code */}
+                  {link.icon === "code" && (
+                    <FaCode className="responsive-icon" />
                   )}
                 </a>
               </Link>
