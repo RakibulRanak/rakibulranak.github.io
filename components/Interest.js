@@ -30,7 +30,13 @@ export const Interest = ({ title, interests }) => {
                   listStylePosition: "inside",
                 }}
               >
-                {name}
+                {name.includes("*") ? (
+                  <span style={{ color: "#000000" }}>
+                    {name.replace("*", "")}
+                  </span>
+                ) : (
+                  <span style={{ color: "#999999" }}>{name}</span>
+                )}
               </li>
             ))}
           </ul>

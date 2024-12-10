@@ -113,12 +113,12 @@ export const SEO = {
 export const interest = {
   title: "Interests",
   interests: [
-    "Software Engineering",
-    // "Artificial Intelligence",
-    "Machine Learning",
+    "Software Engineering*",
+    "Machine Learning*",
+    "Natural Language Processing",
+    "Artificial Intelligence",
     "Human Computer Interaction",
-    "Natural Language and Processing",
-    // "Data Sciences and Analytics",
+    "Data Mining",
   ],
 };
 
