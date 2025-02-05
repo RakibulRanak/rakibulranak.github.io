@@ -227,6 +227,12 @@ export const teachingExperience = {
   title: "Teaching Experience",
   experiences: [
     {
+      title: "Python and Data Science Instructor",
+      year: "2025",
+      description:
+        "Taught Python Programming and Basic Data Science to 60+ undergraduate students at IICT, SUST, as part of the Enhancing Digital Government Economy (EDGE) project, contributing as an industry expert.",
+    },
+    {
       title: "Mentor for Junior Engineers",
       year: "2024",
       description:
