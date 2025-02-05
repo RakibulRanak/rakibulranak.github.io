@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="container text-muted">
         <small>
           <Link href="https://github.com/rakibulranak">
-            <a> &copy; 2024 rakibulranak</a>
+            <a> &copy; 2025 rakibulranak</a>
           </Link>
         </small>
       </div>
