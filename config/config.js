@@ -231,6 +231,7 @@ export const teachingExperience = {
       year: "2025",
       description:
         "Taught Python Programming and Basic Data Science to 60+ undergraduate students at IICT, SUST, as part of the Enhancing Digital Government Economy (EDGE) project, contributing as an industry expert.",
+      images: ["./edge-class-1.jpeg", "./edge-class-2.jpeg"],
     },
     {
       title: "Mentor for Junior Engineers",
