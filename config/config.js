@@ -74,15 +74,16 @@ export const about = {
     "I also love joining communities, helping and mentoring new developers. In my free time, I love watching movies, playing video games, and reading books",
   ],
 };
+
 export const biographyData = {
   title: "About Me",
   content: [
-    "Md Rakibul Hasan, known as Ranak among peers, is a dedicated Software Engineer at Cefalo Bangladesh Ltd. He contributes to the development and enhancement of a large-scale SaaS platform for a Norwegian Media Company, focusing on subscription management, system reliability, and platform improvements to optimize user experience.",
-    "Hasan holds a Bachelor's degree in Software Engineering from Shahjalal University of Science and Technology (SUST). A seasoned competitor in programming contests, he has participated in over 200 contests and solved more than 1200 problems. He has also published research in Computer Vision at the ICDAR conference, specifically on Bengali Document Layout Analysis.",
-    "With experience mentoring junior engineers and expertise in software development, Hasan continues to excel in his role. When not coding, he enjoys watching movies, sports, and traveling.",
+    "Hi, I’m Md Rakibul Hasan, also known as Ranak. I am a software engineer with over two years of experience. Currently, I am employed at Cefalo Bangladesh Ltd., working for Skavl Media, a Norwegian media company, as part of their SaaS platform - Subrite. My job revolves around subscription management, system reliability, platform improvements, automation, and analytics to drive business growth.",
+    "I graduated in Software Engineering from Shahjalal University of Science and Technology. During my studies, I developed web applications, worked on game projects, and solved over 1,200 problems in programming contests. I also conducted research in Computer Vision, publishing my work on Bengali Document Layout Analysis at ICDAR.",
+    "My primary research interests focus on the intersection of software engineering and machine learning, with an emphasis on improving software efficiency, reliability, and incorporating human factors. I am also interested in applying machine learning and data mining to address real-world challenges across various domains, including software development, healthcare, and education",
+    "While not coding, I enjoy mentoring, watching movies, sports, and traveling.",
   ],
 };
-
 export const contact = {
   title: "Get in touch",
   description:

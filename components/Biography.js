@@ -33,11 +33,11 @@ export const Biography = ({ title, content }) => {
             <GoDownload style={{ marginRight: "4px" }} /> Download CV
           </a>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <Interest title={interest.title} interests={interest.interests} />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
