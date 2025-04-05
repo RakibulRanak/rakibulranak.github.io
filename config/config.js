@@ -1,5 +1,5 @@
 import { icon } from "@fortawesome/fontawesome-svg-core";
-import profile from "./profile-white.png";
+import profile from "./profile-sreemangal.jpg";
 import {} from "@fortawesome/free-solid-svg-icons";
 
 export const navigation = {

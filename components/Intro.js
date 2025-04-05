@@ -11,11 +11,9 @@ export const Intro = ({ title, description, image, buttons, socialLinks }) => {
     <div className="bg-white">
       <div className="">
         <div className="row justify-content-center text-center">
-          <div className="col-12">
+          <div className="col-12 mt-sm-4 mt-5">
             <img
               className="img-fluid my-3 card-image"
-              width="250"
-              height="250"
               src={image}
               alt="profile"
             />
