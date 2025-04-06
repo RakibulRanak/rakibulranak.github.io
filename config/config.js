@@ -127,7 +127,7 @@ export const education = {
   title: "Education",
   schools: [
     {
-      degree: "BSc. in Software Engineering, 2022",
+      degree: "BSc. in Software Engineering, 2023",
       institution: "Shahjalal University of Science and Technology, Sylhet",
       institutionUrl: "https://www.sust.edu/",
       gpa: "3.79/4.00 - [4th/50]",
