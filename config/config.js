@@ -80,7 +80,7 @@ export const biographyData = {
   content: [
     "Hi, I’m Md Rakibul Hasan, also known as Ranak. I am a software engineer with over two years of experience. Currently, I am employed at Cefalo Bangladesh Ltd., working for Skavl Media, a Norwegian media company, as part of their SaaS platform - Subrite. My job revolves around subscription management, system reliability, platform improvements, automation, and analytics to drive business growth.",
     "I graduated in Software Engineering from Shahjalal University of Science and Technology. During my studies, I developed web applications, worked on game projects, and solved over 1,200 problems in programming contests. I also conducted research in Computer Vision, publishing my work on Bengali Document Layout Analysis at ICDAR.",
-    "My primary research interests focus on the intersection of software engineering and machine learning, with an emphasis on improving software efficiency, reliability, and incorporating human factors. I am also interested in applying machine learning and data mining to address real-world challenges across various domains, including software development, healthcare, and education",
+    "My primary research interests focus on the intersection of software engineering and machine learning, with an emphasis on improving software efficiency, reliability, and incorporating human factors. I am also interested in applying machine learning, natural lanugage processing, and data mining to address real-world challenges across various domains, including software development, healthcare, and education",
     "While not coding, I enjoy mentoring, watching movies, sports, and traveling.",
   ],
 };
