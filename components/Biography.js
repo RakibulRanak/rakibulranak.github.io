@@ -18,7 +18,22 @@ export const Biography = ({ title, content }) => {
                 lineHeight: "1.5",
               }}
             >
-              {paragraph}
+              {paragraph.split("Subrite").map((text, i, array) => (
+                <React.Fragment key={i}>
+                  {text}
+                  {i < array.length - 1 && (
+                    <a
+                      href="https://subrite.no"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underlined-company-link"
+                      style={{ display: "inline", whiteSpace: "nowrap" }}
+                    >
+                      Subrite
+                    </a>
+                  )}
+                </React.Fragment>
+              ))}
             </p>
           ))}
         </div>

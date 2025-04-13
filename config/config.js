@@ -78,9 +78,9 @@ export const about = {
 export const biographyData = {
   title: "About Me",
   content: [
-    "Hi, I’m Md Rakibul Hasan, also known as Ranak. I am a software engineer with over two years of experience. Currently, I am employed at Cefalo Bangladesh Ltd., working for Skavl Media, a Norwegian media company, as part of their SaaS platform - Subrite. My job revolves around subscription management, system reliability, platform improvements, automation, and analytics to drive business growth.",
-    "I graduated in Software Engineering from Shahjalal University of Science and Technology. During my studies, I developed web applications, worked on game projects, and solved over 1,200 problems in programming contests. I also conducted research in Computer Vision, publishing my work on Bengali Document Layout Analysis at ICDAR.",
-    "My primary research interests focus on the intersection of software engineering and machine learning, with an emphasis on improving software efficiency, reliability, and incorporating human factors. I am also interested in applying machine learning, natural lanugage processing, and data mining to address real-world challenges across various domains, including software development, healthcare, and education",
+    "Hi, I’m Md Rakibul Hasan (also known as Ranak). I’m a software engineer with over two years of professional experience. Currently, I work at Cefalo Bangladesh Ltd., where I help build and maintain the subscription management platform Subrite for Skavl Media, a Norwegian media company. My responsibilities include designing and implementing backend services, ensuring system reliability, automating workflows, and generating actionable metrics to guide platform improvements.",
+    "I graduated in Software Engineering from Shahjalal University of Science and Technology. During my studies, I developed web applications, worked on game projects, and solved over 1,200 problems in programming contests. I also conducted research in Computer Vision and NLP, publishing my work on Bengali Document Layout Analysis at ICDAR.",
+    "My research interests are primarily centered on software engineering and machine learning, with a focus on improving software efficiency, reliability, and incorporating human factors. I am also highly interested in advanced machine learning methods—such as large language models (LLMs), natural language processing (NLP), and data mining—to address real-world challenges across diverse fields.",
     "While not coding, I enjoy mentoring, watching movies, sports, and traveling.",
   ],
 };

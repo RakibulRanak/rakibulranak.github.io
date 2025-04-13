@@ -434,3 +434,12 @@ html {
     margin-top: 3rem !important;
   }
 }
+
+.underlined-company-link {
+  text-decoration: underline !important;
+  color: black !important;
+  font-size: inherit; // This will match the parent text size
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
