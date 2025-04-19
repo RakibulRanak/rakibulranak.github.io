@@ -3,6 +3,7 @@ import getConfig from "next/config";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaEnvelope, FaCode } from "react-icons/fa"; // Import icons from react-icons
 import { FaGoogleScholar } from "react-icons/fa6";
+// import { GoDownload } from "react-icons/go";
 
 const { publicRuntimeConfig } = getConfig();
 
@@ -34,10 +35,22 @@ export const Intro = ({ title, description, image, buttons, socialLinks }) => {
             ))}
           </div>
 
-          <div className="col-12">
+          <div
+            className="col-12"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             {socialLinks.map((link, index) => (
               <Link key={index} href={link.url}>
-                <a target="_blank" rel="noreferrer" className="mx-2 mx-md-3">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mx-2 mx-md-3"
+                  style={{ verticalAlign: "middle" }}
+                >
                   {link.icon === "github" && (
                     <FaGithub className="responsive-icon" />
                   )}
@@ -58,6 +71,27 @@ export const Intro = ({ title, description, image, buttons, socialLinks }) => {
                 </a>
               </Link>
             ))}
+
+            {/* <a
+              href="./mr-hasan-cv.pdf"
+              download
+              target="_blank"
+              rel="noreferrer"
+              className="mx-2 mx-md-2"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                fontSize: "1.25rem",
+                textDecoration: "none",
+                verticalAlign: "middle",
+                position: "relative",
+                top: "0.5px",
+              }}
+              title="Download CV"
+            >
+              <GoDownload style={{ marginRight: "2px", fontSize: "1.25rem" }} />
+              <span style={{ fontWeight: 700 }}>CV</span>
+            </a> */}
           </div>
         </div>
       </div>

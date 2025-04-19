@@ -66,22 +66,13 @@ export const intro = {
   ],
 };
 
-export const about = {
-  title: "About me",
-  description: [
-    "I am a Software Engineer with 2+ years of professional experience, focusing on building and optimizing software solutions. During my university years, I actively participated in both problem-solving and software development. My enthusiasm for programming led me to take part in over 200 programming contests, where I solved over 1200 problems",
-    "I am passionate about research, particularly in AI and machine learning. My work in these areas includes research in Computer Vision and Pattern Recognition, which led to a paper accepted at ICDAR, the premier document analysis and recognition conference.",
-    "I also love joining communities, helping and mentoring new developers. In my free time, I love watching movies, playing video games, and reading books",
-  ],
-};
-
 export const biographyData = {
   title: "About Me",
   content: [
-    "Hi, I’m Md Rakibul Hasan (also known as Ranak). I’m a software engineer with over two years of professional experience. Currently, I work at Cefalo Bangladesh Ltd., where I help build and maintain the subscription management platform Subrite for Skavl Media, a Norwegian media company. My responsibilities include designing and implementing backend services, ensuring system reliability, automating workflows, and generating actionable metrics to guide platform improvements.",
-    "I graduated in Software Engineering from Shahjalal University of Science and Technology. During my studies, I developed web applications, worked on game projects, and solved over 1,200 problems in programming contests. I also conducted research in Computer Vision and NLP, publishing my work on Bengali Document Layout Analysis at ICDAR.",
-    "My primary research interest lies at the intersection of software engineering and machine learning. I am particularly interested in improving software development processes and enhancing software efficiency and reliability, with attention to human factors. I am also highly interested in advanced machine learning methods—such as large language models (LLMs), natural language processing (NLP), and data mining—to address real-world challenges across diverse fields.",
-    "While not coding, I enjoy mentoring, watching movies, sports, and traveling.",
+    "Hi, I’m a software engineer with over two years of professional experience. Currently, I work at Cefalo Bangladesh Ltd., where I help develop and maintain Subrite, a CRM and subscription management platform  for the Norwegian media company Skavl Media.",
+    "I hold a Bachelor’s degree in Software Engineering from Shahjalal University of Science and Technology. During my undergraduate years, I actively engaged in problem-solving and software development, participating in over 200 programming contests and solving more than 1,200 problems. I also conducted research in computer vision and NLP, and published my work on Bengali Document Layout Analysis at ICDAR.",
+    "I am passionate about research at the intersection of software engineering and machine learning. I am also highly interested in advanced machine learning methods—such as large language models (LLMs), natural language processing (NLP), and data mining.",
+    // "While not coding, I enjoy mentoring, watching movies, sports, and traveling.",
   ],
 };
 export const contact = {
@@ -114,12 +105,10 @@ export const SEO = {
 export const interest = {
   title: "Interests",
   interests: [
-    "Software Engineering*",
-    "Machine Learning*",
-    "Natural Language Processing",
-    "Artificial Intelligence",
-    "Human Computer Interaction",
-    "Data Mining",
+    "Empirical software engineering, software design, testing, debugging, productivity tools.",
+    "Automated code review and repair, code generation, and documentation.",
+    "Security and privacy, vulnerability detection, accessibility, usability, and human factors.",
+    "LLMs, NLP, data mining, and ML applications in healthcare and education.",
   ],
 };
 

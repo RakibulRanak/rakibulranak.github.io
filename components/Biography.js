@@ -37,22 +37,29 @@ export const Biography = ({ title, content }) => {
             </p>
           ))}
         </div>
-        <div className="text-center text-md-start">
-          {" "}
-          <a
-            href="./mr-hasan-cv.pdf"
-            className="mt-4 mb-4 btn btn-primary my-1  btn-sm"
-            download
-            style={{ display: "inline-flex", alignItems: "center" }}
-          >
-            <GoDownload style={{ marginRight: "4px" }} /> Download CV
-          </a>
-        </div>
-        {/* <div className="row">
+
+        <div className="row">
           <div className="col-12">
             <Interest title={interest.title} interests={interest.interests} />
           </div>
-        </div> */}
+        </div>
+      </div>
+
+      <div className="text-center text-md-start">
+        <a
+          href="./mr-hasan-cv.pdf"
+          className="mt-2 mb-2 btn btn-primary btn-sm"
+          download
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            fontSize: "1.1rem",
+            padding: "0.15rem 0.5rem",
+          }}
+        >
+          <GoDownload style={{ marginRight: "4px", fontSize: "1rem" }} />{" "}
+          Download CV
+        </a>
       </div>
     </div>
   );

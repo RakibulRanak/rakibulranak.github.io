@@ -4,39 +4,29 @@ export const Interest = ({ title, interests }) => {
   return (
     <div id="interest" className="bg-white">
       <h1
-        className="text-primary fw-bold py-2 text-center text-md-start"
+        className="text-primary fw-bold py-1 text-center text-md-start"
         style={{ fontSize: "1.7rem" }}
       >
         {title}
       </h1>
       <div>
-        <div className="row justify-content-center justify-content-md-start col-lg-10">
+        <div className="row justify-content-center justify-content-md-start">
           <ul
-            className="text-center text-md-start"
             style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-              paddingLeft: "10px",
+              paddingLeft: "30px",
+              textAlign: "left",
             }}
           >
             {interests.map((name, index) => (
               <li
                 key={index}
-                className="col-12 col-md-6"
                 style={{
                   listStyleType: "disc",
                   paddingLeft: "5px",
-                  listStylePosition: "inside",
+                  listStylePosition: "outside",
                 }}
               >
-                {name.includes("*") ? (
-                  <span style={{ color: "#000000" }}>
-                    {name.replace("*", "")}
-                  </span>
-                ) : (
-                  <span style={{ color: "#999999" }}>{name}</span>
-                )}
+                {name}
               </li>
             ))}
           </ul>
