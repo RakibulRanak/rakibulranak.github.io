@@ -71,7 +71,7 @@ export const biographyData = {
   content: [
     "Hi, I’m a software engineer with over two years of professional experience. Currently, I work at Cefalo Bangladesh Ltd., where I help develop and maintain Subrite, a CRM and subscription management platform  for the Norwegian media company Skavl Media.",
     "I hold a Bachelor’s degree in Software Engineering from Shahjalal University of Science and Technology. During my undergraduate years, I actively engaged in problem-solving and software development, participating in over 200 programming contests and solving more than 1,200 problems. I also conducted research in computer vision and NLP, and published my work on Bengali Document Layout Analysis at ICDAR.",
-    "I am passionate about research at the intersection of software engineering and machine learning. I am also highly interested in advanced machine learning methods—such as large language models (LLMs), natural language processing (NLP), and data mining.",
+    "I am passionate about research at the intersection of software engineering and machine learning. I am also highly interested in cutting-edge fields, including large language models (LLMs), natural language processing (NLP), and data mining.",
     // "While not coding, I enjoy mentoring, watching movies, sports, and traveling.",
   ],
 };
